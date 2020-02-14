@@ -1,0 +1,15 @@
+name = Foundation Template
+description = Foundation Template
+core = 7.x
+version = 7.x-1.0
+project = foundation_template
+project path = sites/all/modules/third
+
+dependencies[] = foundation
+dependencies[] = foundation_docx
+
+files[] = src/TemplateBuilder.php
+files[] = src/TemplateDefault.php
+files[] = src/TemplateFactory.php
+files[] = src/TemplateInterface.php
+files[] = src/TemplateRepositoryInterface.php
